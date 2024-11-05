@@ -1,0 +1,2 @@
+# hcf-and-lcm
+calculation
