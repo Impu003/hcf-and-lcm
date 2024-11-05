@@ -11,3 +11,5 @@ int main() {
     int num1, num2, h, l;
     printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);
+    h = hcf(num1, num2);
+    l = lcm(num1, num2);
