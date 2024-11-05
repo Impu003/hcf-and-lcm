@@ -13,3 +13,7 @@ int main() {
     scanf("%d %d", &num1, &num2);
     h = hcf(num1, num2);
     l = lcm(num1, num2);
+printf("HCF of %d and %d is: %d\n", num1, num2, h);
+    printf("LCM of %d and %d is: %d\n", num1, num2, l);
+    return 0;
+}
