@@ -7,3 +7,7 @@ int hcf(int a, int b) {
 int lcm(int a, int b) {
     return (a * b) / hcf(a, b);
 }
+int main() {
+    int num1, num2, h, l;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
